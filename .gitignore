@@ -1,0 +1,5 @@
+# Saidas de build do STM32CubeIDE
+Debug/
+Release/
+# Documentacao gerada pelo Doxygen
+docs/
