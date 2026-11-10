@@ -1,0 +1,25 @@
+# Doxyfile - Lab ADC-DAC-DMA STM32 (digipot LED + LDR)
+# Uso:  doxygen Doxyfile   ->   docs/html/index.html
+
+PROJECT_NAME           = "Lab ADC-DAC-DMA - Digipot"
+PROJECT_BRIEF          = "Potenciometro digital com LED + LDR, look-up-table e recalibracao pela UART via DMA (Lab ADC-DAC-DMA - Virtus-CC)"
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = Brazilian
+INPUT_ENCODING         = UTF-8
+
+INPUT                  = README.md BSP App
+FILE_PATTERNS          = *.c *.h *.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+
+OPTIMIZE_OUTPUT_FOR_C  = YES
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+SOURCE_BROWSER         = YES
+GENERATE_TREEVIEW      = YES
+USE_MATHJAX            = YES
+
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = NO
+WARN_IF_UNDOCUMENTED   = NO
