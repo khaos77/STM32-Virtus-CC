@@ -5,3 +5,4 @@ Atividades da Formacao em Sistemas Embarcados Virtus-CC (NUCLEO-F767ZI).
 | Atividade | Descricao |
 |---|---|
 | [Lab GPIO e NVIC - atividade 01](lab%20gpio-nvic%20stm32%20-%20atividade01/atividade_01-lab-gpio-nvic/README.md) | GPIO-Link: protocolo de comunicacao entre duas STM32 usando apenas GPIO + EXTI. Criterio otimizado: **robustez**. |
+| [Lab Timer e UART - atividade 02](lab%20timer-uart%20stm32%20-%20atividade02/atividade_02-lab-timer-uart/README.md) | Gerador senoidal: PWM de 100 kHz com duty senoidal (DDS) + filtro RC, frequencia ajustavel via UART (1 Hz a 1 kHz). |

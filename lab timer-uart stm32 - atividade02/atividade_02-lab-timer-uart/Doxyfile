@@ -1,0 +1,20 @@
+# Doxyfile minimo - gere a documentacao com:  doxygen Doxyfile
+# Saida em docs/html/index.html
+PROJECT_NAME           = "Gerador Senoidal PWM"
+PROJECT_BRIEF          = "Senoide por PWM + filtro RC com frequencia ajustavel via UART (Lab Timer/UART - Virtus-CC)"
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = Brazilian
+INPUT_ENCODING         = UTF-8
+INPUT                  = README.md BSP App
+FILE_PATTERNS          = *.c *.h *.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+OPTIMIZE_OUTPUT_FOR_C  = YES
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+SOURCE_BROWSER         = YES
+GENERATE_TREEVIEW      = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = NO
+WARN_IF_UNDOCUMENTED   = NO
