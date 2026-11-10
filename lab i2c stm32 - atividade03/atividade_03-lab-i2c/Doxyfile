@@ -1,0 +1,25 @@
+# Doxyfile - Lab I2C STM32 (MPU6050 + SSD1306)
+# Uso:  doxygen Doxyfile   ->   docs/html/index.html
+
+PROJECT_NAME           = "Lab I2C - Atitude"
+PROJECT_BRIEF          = "Estimacao de roll, pitch e yaw com MPU6050 + SSD1306 e filtro complementar (Lab I2C - Virtus-CC)"
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = Brazilian
+INPUT_ENCODING         = UTF-8
+
+INPUT                  = README.md BSP App
+FILE_PATTERNS          = *.c *.h *.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+
+OPTIMIZE_OUTPUT_FOR_C  = YES
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+SOURCE_BROWSER         = YES
+GENERATE_TREEVIEW      = YES
+USE_MATHJAX            = YES
+
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = NO
+WARN_IF_UNDOCUMENTED   = NO
